@@ -1,0 +1,46 @@
+body{
+    overflow: hidden;
+}
+.app-main {
+    display: table;
+    flex-wrap: wrap;
+}
+
+.app-main .sidebar-main {
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    background: #3075e3;
+}
+
+.app-main .section-main {
+    margin-left: 20vw;
+}
+
+.app-main .about-main, .app-main .education-main {
+    display: table-cell;
+}
+
+.app-main .inner-education, .app-main .inner-about{
+    width: 25vw;
+    height: 100vh;
+    margin-right : -30vw;
+    transition: 0.5s;
+    position: relative;
+}
+
+.app-main .education-main .inner-education {
+    background: green;
+}
+
+.app-main .about-main .inner-about {
+    background: grey;
+}
+
+.app-main .skills-main{
+    margin-left: 20vw;
+    margin-top : 100vw;
+    transition: 0.5s;
+    max-width : 80vw;
+    background-color : grey;
+}

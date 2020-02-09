@@ -1,0 +1,38 @@
+.sidebar-main .sidebar-header h3 {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.sidebar-main .sidebar-img {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-main .sidebar-img img {
+    background: white;
+    width: 8vw;
+    height: 16vh;
+    margin-top: 5vh;
+    border-radius: 50%;
+}
+
+.sidebar-main .sidebar-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+.sidebar-content ul li {
+    padding: 5%;
+    color: white;
+    width: 20vw;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sidebar-content li.active {
+    background: #094bb5;
+}
